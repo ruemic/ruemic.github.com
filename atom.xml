@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Ruemic's Blog]]></title>
   <link href="http://ruemic.github.com/atom.xml" rel="self"/>
   <link href="http://ruemic.github.com/"/>
-  <updated>2012-09-05T00:00:52+08:00</updated>
+  <updated>2012-09-05T03:06:16+08:00</updated>
   <id>http://ruemic.github.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Michael Ruescher]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Upgrading the Blog]]></title>
+    <link href="http://ruemic.github.com/blog/2012/09/05/Upgrading-the-Blog/"/>
+    <updated>2012-09-05T02:10:00+08:00</updated>
+    <id>http://ruemic.github.com/blog/2012/09/05/Upgrading-the-Blog</id>
+    <content type="html"><![CDATA[<h2>Because if it ain&#8217;t fun, it won&#8217;t get done</h2>
+
+<p>I&#8217;ve just switched my blog to Octopress after realizing that my previous setup was just way to much of a hassle to update. Basically, I was hand coding the html for each post.</p>
+
+<p>One that was just way to much overhead. Lucky for me, some really smart folks have come up with a much better way to do it, that uses all the latest and greatest web dev tools.</p>
+
+<p>Will post some more details soon&#8230;</p>
+]]></content>
+  </entry>
   
 </feed>
