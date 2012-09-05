@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Ruemic's Blog]]></title>
+  <title><![CDATA[Ruemic Design]]></title>
   <link href="http://ruemic.github.com/atom.xml" rel="self"/>
   <link href="http://ruemic.github.com/"/>
-  <updated>2012-09-05T03:06:16+08:00</updated>
+  <updated>2012-09-05T18:12:29+08:00</updated>
   <id>http://ruemic.github.com/</id>
   <author>
     <name><![CDATA[Michael Ruescher]]></name>
@@ -18,13 +18,66 @@
     <link href="http://ruemic.github.com/blog/2012/09/05/Upgrading-the-Blog/"/>
     <updated>2012-09-05T02:10:00+08:00</updated>
     <id>http://ruemic.github.com/blog/2012/09/05/Upgrading-the-Blog</id>
-    <content type="html"><![CDATA[<h2>Because if it ain&#8217;t fun, it won&#8217;t get done</h2>
+    <content type="html"><![CDATA[<h3>Because if it ain&#8217;t fun, it won&#8217;t get done</h3>
 
-<p>I&#8217;ve just switched my blog to Octopress after realizing that my previous setup was just way to much of a hassle to update. Basically, I was hand coding the html for each post.</p>
+<p>I decided to start a blog earlier this year to journal my adventures in becoming a better coder/designer. I wanted my blog to be an example of my front end skills. So I was hand coding the html for each post. But it quickly become apparent that this was just way to much overhead to use, making posting feel like work instead of being fun, so it simply didn&#8217;t get done.</p>
 
-<p>One that was just way to much overhead. Lucky for me, some really smart folks have come up with a much better way to do it, that uses all the latest and greatest web dev tools.</p>
+<p>Lucky for me, some really smart folks have come up with a way to blog that really suits my purposes. <a href="http://octopress.org/docs/">Octopress</a>. It&#8217;s a framework for <a href="http://jekyllrb.com/">Jekyll</a>, a &#8220;blog aware static site generator&#8221; written in Ruby.</p>
 
-<p>Will post some more details soon&#8230;</p>
+<!--More-->
+
+
+<p>It makes it really quick and easy to post, but also keeps things close to the metal in terms of the authoring tools. Octopress is set up to run on github page so all you have to do is write a post in <a href="http://daringfireball.net/projects/markdown/">Markdown</a>, generate the static html site, and deploy it. It looks a little something like this:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ rake generate</span></code></pre></td></tr></table></div></figure>
+
+
+<p>(Oh yea, it has really awesome code highlighting built in!)</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ rake deploy</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This pushes your latest changes to github, which then automatically deploys via <a href="http://pages.github.com/">Github Pages</a>.</p>
+
+<p>So that means you also automatically get the added benefit of being on version control, so if you want to branch off with an experiment, manage to really screw something up, or want to collaborate with other authors, you have github to manage that process.</p>
+
+<p>I&#8217;m looking forward to get to know Octopress better, and actually blogging while at it!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Just Blog Already]]></title>
+    <link href="http://ruemic.github.com/blog/2012/05/04/just-blog-already/"/>
+    <updated>2012-05-04T15:29:00+08:00</updated>
+    <id>http://ruemic.github.com/blog/2012/05/04/just-blog-already</id>
+    <content type="html"><![CDATA[<h3>A Note to Self</h3>
+
+<p>There comes a time in life, where you just go for it. This is one of those times for me. The past three years of life since graduating from college have provided me many opportunities to try my hand at design. For this I am very grateful.</p>
+
+<p>I always felt that when I was in &#8216;design mode&#8217; was when I created the most value, mostly because this is where I was the most passionate. I didn&#8217;t care if I had to spend several days of my own time learning something in order to bring an idea to life. It puts me in a state of &#8220;flow&#8221; and I once read that this is a very good thing.</p>
+
+<!-- More -->
+
+
+<p>So, that&#8217;s why I&#8217;ve now decided to be a web designer full time. So far, it&#8217;s been a process of soaking up as much as I could, by gathering lots of input from blogs and various online classes like <a href="http://www.codeschool.com/">Codeschool</a>. And of course, by doing a lot of experimenting by building web sites!</p>
+
+<p>To make viable a career of web design/development, I know need to be REALLY good. Which means I always need to keep learning and stay on top of ways the web as a whole is evolving, both technically and culturally. This blog is a way to summarize, perhaps on a weekly basis, the things I am learning, and why they matter.</p>
+
+<p>If I can really get into the rhythm of publishing what I&#8217;m learning, then not only will it solidify my knowledge and abilities, but I will also be giving back to the community of designers and developers from whom I have learned most of what I know!</p>
+
+<p>I hope this blog also serves as a way for potential clients or colleagues to get to know me. So you can get an idea of where my head&#8217;s at. Because design is about trust.</p>
+
+<p>Often times when working out a design problem, I don&#8217;t know the answer yet. I might have a conception of what the outcome should be, but it&#8217;s still a bit fuzzy. That&#8217;s where trust is so important.</p>
+
+<p>Any designer has to be allowed to try things and make mistakes to arrive at a good solution. So the process isn&#8217;t always pretty. Without trust, it can get pretty tough to make it to the other side.</p>
+
+<p>So how does a client grant their trust to a designer? It&#8217;s only the future of their business thats on the line! It&#8217;s a really good question. But demonstrating good work and revealing my thought processes is part of the answer.</p>
+
+<p>Good design is all about being able to put yourself in the shoes of the end user and creating an experience that is empathic to their wants and needs. This is the intangible part of the designers job, and it can involve a lot of convincing and cajoling of clients who may not see it that way.</p>
+
+<p>So let this blog also serve as a way for potential clients to evaluate wether they would want me convincing and cajoling them!</p>
 ]]></content>
   </entry>
   
