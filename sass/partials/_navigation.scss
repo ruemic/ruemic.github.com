@@ -1,15 +1,14 @@
 body > nav {
-  position: relative;
-  background-color: $nav-bg;
-  @include background($nav-bg-front, $nav-bg-back);
-  border: {
-    top: 1px solid $nav-border-top;
-    bottom: 1px solid $nav-border-bottom; }
-  padding-top: .35em;
+  position: absolute;
+  top: 0px;
+  right:0px;
+  // background-color: $nav-bg;
+  // @include background($nav-bg-front, $nav-bg-back);
+
   padding-bottom: .35em;
   form {
     @include background-clip(padding-box);
-    margin: 0; padding: 0;
+    margin: .3em 0 0 0; padding: 0;
     .search {
       padding: .3em .5em 0;
       font-size: .85em;
@@ -42,15 +41,20 @@ body > nav {
       @include horizontal-list(0);
       float: left;
       display: block;
-      padding-top: .15em;
+      li {
+        padding: .6em !important;
+        margin: 0px 0px 0px .5em;
+        background-image: url("/images/leather.jpg");
+        border-bottom: 1px solid lighten(#2D2B2A,60);
+        a { padding: 0px .4em 0px .2em ; }
+        border-radius: 0 0 .5em .5em;
+        &:first-child { margin-left: 0px; }
+      }
     }
     ul.subscription {
       margin-left: .8em;
       float: right;
       li:last-child a { padding-right: 0; }
-    }
-    ul li {
-      margin: 0;
     }
     a {
       @include link-colors($nav-color, $nav-color-hover, $visited: $nav-color);
@@ -59,17 +63,9 @@ body > nav {
       float: left;
       text-decoration: none;
       font-size: 1.1em;
-      padding: .1em 0;
       line-height: 1.5em;
     }
-    li + li {
-      border-left: 1px solid $nav-border-left;
-      margin-left: .8em;
-      a {
-        padding-left: .8em;
-        border-left: 1px solid $nav-border-right;
-      }
-    }
+
     form {
       float: right;
       text-align: left;
@@ -130,7 +126,7 @@ body > nav {
       }
     }
   }
-  ul.subscription { position: relative; top: .2em; li, a { border: 0; padding: 0; }}
+  ul.subscription { position: relative; li, a { border: 0; padding: 0; }}
   a[rel=subscribe-rss]{ @include mask-subscription-nav('rss.png'); }
   a[rel=subscribe-email]{ @include mask-subscription-nav('email.png'); }
 }

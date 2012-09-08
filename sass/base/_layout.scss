@@ -7,10 +7,8 @@ $pad-medium: 35px !default;
 $pad-wide: 55px !default;
 
 // Sidebar widths used in media queries
-$sidebar-width-medium: 240px !default;
 $sidebar-pad-medium: 15px !default;
 $sidebar-pad-wide: 20px !default;
-$sidebar-width-wide: 300px !default;
 
 $indented-lists: false !default;
 
@@ -134,7 +132,7 @@ body.sidebar-footer {
   body { -webkit-text-size-adjust: auto; }
   body > header { font-size: $header-font-size * 1.2; }
   #main {
-    padding: 0;
+    padding: 0px 18px;
     margin: 0 auto;
   }
   #content {
