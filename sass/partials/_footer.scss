@@ -2,10 +2,7 @@ body > footer {
   @extend .sans;
   font-size: .8em;
   color: $footer-color;
-  text-shadow: lighten($footer-bg, 5) 0 1px;
-  background-color: $footer-bg;
-  @include background($footer-bg-front, $footer-bg-back);
-  border-top: 1px solid $footer-border-top;
+  text-shadow: #48344D 0 1px;
   position: relative;
   padding-top: 1em;
   padding-bottom: 1em;
@@ -15,5 +12,6 @@ body > footer {
   a {
     @include link-colors($footer-link-color, $footer-link-color-hover, $visited: $footer-link-color);
   }
+  p { width: 100%; text-align: center; }
   p:last-child { margin-bottom: 0; }
 }

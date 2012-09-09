@@ -42,10 +42,13 @@ body > nav {
       float: left;
       display: block;
       li {
+        border-left: 1px solid #F5F2E7;
+        border-right: 1px solid #5A4C4C;
+        border-bottom: 1px solid #5A4C4C;
+        @include box-shadow(rgba(0, 0, 0, 0.24) 1px 0px 17px -1px);
         padding: .6em !important;
         margin: 0px 0px 0px .5em;
         background-image: url("/images/leather.jpg");
-        border-bottom: 1px solid lighten(#2D2B2A,60);
         a { padding: 0px .4em 0px .2em ; }
         border-radius: 0 0 .5em .5em;
         &:first-child { margin-left: 0px; }

@@ -1,17 +1,18 @@
 body > header {
   h1 {
+    font-size: 1.6em;
     display: inline-block;
     margin: 0;
     a, a:visited, a:hover {
-      color: $title_color;
+      color: #D8C999;
       text-decoration: none;
     }
   }
   h2 {
     margin: .2em 0 0;
     @extend .sans;
-    font-size: 1em;
-    color: $subtitle-color;
+    font-size: 1.2em;
+    color: #94B4C4;
     font-weight: normal;
   }
 }

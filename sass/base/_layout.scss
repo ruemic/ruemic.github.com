@@ -146,6 +146,9 @@ body.sidebar-footer {
     }
   }
   aside.sidebar {
+    border: 3px solid #837C7C;
+    border-top: 3px solid rgb(218, 204, 204);
+    border-left: 3px solid #C5C3C3;
     width: $sidebar-width-medium - $sidebar-pad-medium*2;
     padding: 0 $sidebar-pad-medium $sidebar-pad-medium;
     background: none;

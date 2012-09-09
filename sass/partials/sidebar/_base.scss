@@ -49,6 +49,8 @@ aside.sidebar {
     color: $sidebar-link-color;
     &:hover { color: $sidebar-link-color-hover; }
   }
+  .collapse-sidebar & {right: 0px;
+top: 0px;}
 }
 .aside-alt-link {
   color: $sidebar-link-color-subdued;
@@ -87,6 +89,7 @@ aside.sidebar {
       padding-bottom: .15em;
       @include border-left-radius(.3em);
       border-left: 1px solid darken(#C0D8C4,17%);
+      @include box-shadow(0px 1px 1px 0px rgba(16, 41, 7, 0.5));
       text-align: center;
       background: hsl(130,24%,80%);
       content: "\00BB";

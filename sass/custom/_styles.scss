@@ -5,10 +5,8 @@ html {
   background-image: url("/images/type.png");
 }
 
-body {
-  background: url("/images/strange_bullseyes.png");
-  border-left: 5px solid #3E6F68;
-  border-right: 5px solid #3E6F68;
+#main {
+  background: url("/images/type.png");
   &:after {
   z-index: -1;
   content: "";
@@ -59,16 +57,5 @@ body > nav {
   }
 }
 
-body > header {
-  h1 {
-    font-family: courier;
-    a:hover {
-      color: lighten($title-color, 19%);
-    }
-  }
-  h2 {
-    font-family: courier;
-  }
-}
 
 
