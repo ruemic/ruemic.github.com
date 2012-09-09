@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Upgrading the Blog - Ruemic</title>
+  <title>Upgrading the Blog - Ruemic's Blog</title>
   <meta name="author" content="Michael Ruescher">
 
   
-  <meta name="description" content="Because if it ain&#8217;t fun, it won&#8217;t get done I decided to start a blog earlier this year to journal my adventures in becoming a better &hellip;">
+  <meta name="description" content="Because if it ain&#8217;t fun, it won&#8217;t get done I created this blog to reflect on my journey to become a coder/designer. It is also a place &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -24,7 +24,7 @@
   <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="/javascripts/ender.js"></script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="/atom.xml" rel="alternate" title="Ruemic" type="application/atom+xml">
+  <link href="/atom.xml" rel="alternate" title="Ruemic's Blog" type="application/atom+xml">
   
   
 
@@ -32,7 +32,7 @@
 
 <body   >
   <header role="banner"><hgroup>
-  <h1><a href="/">@Ruemic</a></h1>
+  <h1><a href="/">@Ruemic's Blog</a></h1>
   
     <h2>Adventures in Code and Design</h2>
   
@@ -52,14 +52,11 @@
 </form>
   
 <ul class="main-navigation">
+  <li><a href="http://www.ruemic.com">Home</a></li>
   <li><a href="/">Blog</a></li>
   <li><a href="/blog/archives">Archives</a></li>
-  <li><a href="/experiments/">Experiments</a></li>
 </ul>
 
-
-<!--   <li><a href="/experiments">Experiments</a></li>
-  <li><a href="/contact">Contact</a></li> -->
 </nav>
   <div id="main">
     <div id="content">
@@ -93,18 +90,16 @@
 
 <div class="entry-content"><h3>Because if it ain&#8217;t fun, it won&#8217;t get done</h3>
 
-<p>I decided to start a blog earlier this year to journal my adventures in becoming a better coder/designer. I wanted my blog to be an example of my front end skills.</p>
+<p>I created this blog to reflect on my journey to become a coder/designer. It is also a place for me to experiment with code and design. Although I&#8217;ve customized several Wordpress sites before, I decided I wanted to try something new and more lightweight.</p>
 
-<p>Althought I&#8217;ve customized several Wordpress sites before, I wanted to hand roll my own blogging system so I would have to figure things out for myself.</p>
-
-<p> So I started out by simply hand coding the html for each post. It quickly become apparent that this was just way to much overhead to use. Posting felt like work instead of being fun, so it simply didn&#8217;t get done.</p>
+<p> So I started out by simply hand coding the html for each post. Turns out that was way too much overhead, and posting felt like work instead of being fun. So it simply didn&#8217;t get done. I needed to streamline my authoring flow.</p>
 
 <p>Lucky for me, some really smart folks have come up with a much better way to blog. <a href="http://octopress.org/docs/">Octopress</a>. It&#8217;s a framework for <a href="http://jekyllrb.com/">Jekyll</a>, a &#8220;blog aware static site generator&#8221; written in Ruby.</p>
 
 <!--More-->
 
 
-<p>It makes it really quick and easy to post, but also keeps things close to the metal in terms of the authoring tools. Octopress is set up to run on github page so all you have to do is write a post in <a href="http://daringfireball.net/projects/markdown/">Markdown</a>, generate the static html site, and deploy it. It looks a little something like this:</p>
+<p>It makes it really quick and easy to post, but also keeps things close to the metal in terms of the authoring tools. Octopress is set up to run on github pages so all you have to do is write a post in <a href="http://daringfireball.net/projects/markdown/">Markdown</a>, generate the static html site, and deploy it. It looks a little something like this:</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>$ rake generate</span></code></pre></td></tr></table></div></figure>
