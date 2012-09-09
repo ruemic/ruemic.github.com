@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Ruemic Design</title>
+  <title>Ruemic</title>
   <meta name="author" content="Michael Ruescher">
 
   
@@ -24,20 +24,17 @@
   <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="/javascripts/ender.js"></script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="/atom.xml" rel="alternate" title="Ruemic Design" type="application/atom+xml">
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-
+  <link href="/atom.xml" rel="alternate" title="Ruemic" type="application/atom+xml">
+  
   
 
 </head>
 
 <body   >
   <header role="banner"><hgroup>
-  <h1><a href="/">@Ruemic Design</a></h1>
+  <h1><a href="/">@Ruemic</a></h1>
   
-    <h2>Thoughts on Web Design & Developement</h2>
+    <h2>Adventures in Code and Design</h2>
   
 </hgroup>
 
@@ -57,8 +54,12 @@
 <ul class="main-navigation">
   <li><a href="/">Blog</a></li>
   <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/experiments/">Experiments</a></li>
 </ul>
 
+
+<!--   <li><a href="/experiments">Experiments</a></li>
+  <li><a href="/contact">Contact</a></li> -->
 </nav>
   <div id="main">
     <div id="content">
@@ -95,9 +96,13 @@
 
   <div class="entry-content"><h3>Because if it ain&#8217;t fun, it won&#8217;t get done</h3>
 
-<p>I decided to start a blog earlier this year to journal my adventures in becoming a better coder/designer. I wanted my blog to be an example of my front end skills. So I was hand coding the html for each post. But it quickly become apparent that this was just way to much overhead to use, making posting feel like work instead of being fun, so it simply didn&#8217;t get done.</p>
+<p>I decided to start a blog earlier this year to journal my adventures in becoming a better coder/designer. I wanted my blog to be an example of my front end skills.</p>
 
-<p>Lucky for me, some really smart folks have come up with a way to blog that really suits my purposes. <a href="http://octopress.org/docs/">Octopress</a>. It&#8217;s a framework for <a href="http://jekyllrb.com/">Jekyll</a>, a &#8220;blog aware static site generator&#8221; written in Ruby.</p>
+<p>Althought I&#8217;ve customized several Wordpress sites before, I wanted to hand roll my own blogging system so I would have to figure things out for myself.</p>
+
+<p> So I started out by simply hand coding the html for each post. It quickly become apparent that this was just way to much overhead to use. Posting felt like work instead of being fun, so it simply didn&#8217;t get done.</p>
+
+<p>Lucky for me, some really smart folks have come up with a much better way to blog. <a href="http://octopress.org/docs/">Octopress</a>. It&#8217;s a framework for <a href="http://jekyllrb.com/">Jekyll</a>, a &#8220;blog aware static site generator&#8221; written in Ruby.</p>
 
 </div>
   
@@ -179,22 +184,6 @@
 </section>
 
 
-<section>
-  <h1>Latest Tweets</h1>
-  <ul id="tweets">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  <script type="text/javascript">
-    $.domReady(function(){
-      getTwitterFeed("ruemic", 4, false);
-    });
-  </script>
-  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
-  
-    <a href="http://twitter.com/ruemic" class="twitter-follow-button" data-show-count="false">Follow @ruemic</a>
-  
-</section>
-
 
 
 
@@ -211,6 +200,19 @@
 
 </footer>
   
+
+<script type="text/javascript">
+      var disqus_shortname = 'ruemic';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
 
 
 
