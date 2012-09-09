@@ -27,11 +27,14 @@ body {
    hsl(310, 18%, 4%)
   ));;
   }
+  &.collapse-sidebar {
+    article {
+      padding: 2em 4em 0em 3.5em !important;
+    }
+  }
 }
 
-aside.sidebar {
-  background: url("/images/fabric_plaid.png");
-}
+
 article {
   border-bottom: 1px dotted gray;
   background-image: url('/images/husk.png');
@@ -41,6 +44,10 @@ article {
   }
   + section { background-image: url('/images/husk.png'); }
 }
+
+
+
+
 
 body > nav {
   li {

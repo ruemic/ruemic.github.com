@@ -2,6 +2,7 @@
   @include box-shadow(lighten($sidebar-bg, 5) 0 1px);
 }
 aside.sidebar {
+  background: url("/images/fabric_plaid.png");
   overflow: hidden;
   color: $sidebar-color;
   text-shadow: lighten($sidebar-bg, 8) 0 1px;
@@ -57,49 +58,64 @@ aside.sidebar {
 }
 
 @media only screen and (min-width: 768px) {
+  .sidebar {
+    right: 17px; top: -10px;
+    position: relative;
+    @include box-shadow(black 0px 0px 23px -6px);
+    z-index: 2;
+  }
   .toggle-sidebar {
+    z-index:0;
     outline: none;
-    position: absolute; right: -10px; top: 0; bottom: 0;
+    font-size: 13px;
+    position: absolute; right: 16px; top: 0px; bottom: 0;
     display: inline-block;
     text-decoration: none;
-    color: mix($text-color-light, $sidebar-bg);
+    // color: mix($text-color-light, $sidebar-bg);
+    color: rgb(105, 70, 70);
     width: 9px;
     cursor: pointer;
     &:hover {
-      background: mix($sidebar-border, $sidebar-bg);
-      @include background(linear-gradient(left, rgba($sidebar-border, .5), rgba($sidebar-border, 0)));
+      // background: hsla(10,10%,70%,.4);
+      // @include background(linear-gradient(left, rgba($sidebar-border, .5), rgba($sidebar-border, 0)));
     }
     &:after {
-      position: absolute; right: -11px; top: 0;
-      width: 20px;
-      font-size: 1.2em;
-      line-height: 1.1em;
+      position: absolute; right: 0px; top: 30px;
+      width: 30px;
+      font-size: 3em;
+      line-height: 1.3em;
       padding-bottom: .15em;
-      @include border-bottom-right-radius(.3em);
+      @include border-left-radius(.3em);
+      border-left: 1px solid darken(#C0D8C4,17%);
       text-align: center;
-      background: $main-bg $noise-bg;
-      border-bottom: 1px solid $sidebar-border;
-      border-right: 1px solid $sidebar-border;
+      background: hsl(130,24%,80%);
       content: "\00BB";
-      text-indent: -1px;
+      text-indent: 1px;
     }
     .collapse-sidebar & {
       text-indent: 0px;
       right: -20px;
       width: 19px;
       &:hover {
-        background: mix($sidebar-border, $sidebar-bg);
+        // background: rgba(146, 74, 74, 0.51);
+        // @include box-shadow( rgba(146, 74, 74, 0.51) 0px 0px 12px 8px );
       }
       &:after {
-        border-left: 1px solid $sidebar-border;
-        text-shadow: #fff 0 1px;
+        top: 9px;
+        left: -1px;
+        width: 32px;
+        border-left: 0;
+        border-top: 1px solid $article-outer-border;
+        border-right: 1px solid $article-outer-border;
+        border-bottom: 1px solid $article-outer-border;
+        color: rgb(105, 70, 70);
+        @include border-radius(0em);
+        @include border-right-radius(.3em);
+        text-shadow: rgba(255, 255, 255, 0.53) 0 1px;
         content: "\00AB";
-        left: 0px; right: 0;
         text-align: center;
         text-indent: 0;
-        border: 0;
-        border-right-width: 0;
-        background: none;
+        background: $article-border;
       }
     }
   }
