@@ -4,7 +4,7 @@
   <title><![CDATA[Category: github | Ruemic's Blog]]></title>
   <link href="http://ruemic.github.com/blog/categories/github/atom.xml" rel="self"/>
   <link href="http://ruemic.github.com/"/>
-  <updated>2012-09-17T20:34:20+08:00</updated>
+  <updated>2012-09-17T20:46:52+08:00</updated>
   <id>http://ruemic.github.com/</id>
   <author>
     <name><![CDATA[Michael Ruescher]]></name>
@@ -31,9 +31,9 @@
 
 <p>I've really taken a liking to CoffeeScript because it lets you focus on the logic of the behavior or interaction you're attempting to define instead of forcing you to nitpick the syntax of javascript.</p>
 
-<p>Since I'm working on the front end, I'm mostly just using a lot of jQuery to write functions for event handlers which r Backbone View's to make things interactive. The combination of jQuery and CoffeeScript makes for really expressive code and I look forward to do a lot more with it.</p>
+<p>Since I'm working on the front end, I'm mostly just using a lot of jQuery to write functions for event handlers to make things interactive. The CoffeeScript for each page is contained within a custom backbone.js view class which has a module for binding and triggering custom named events. This combination using backbone to organize the code and writing the functions in jQuery and CoffeeScript makes for really expressive code.</p>
 
-<h5>Backbone, Ruby on Rails coming soon!</h5>
+<h5>More on Backbone and Ruby on Rails coming soon!</h5>
 ]]></content>
   </entry>
   
