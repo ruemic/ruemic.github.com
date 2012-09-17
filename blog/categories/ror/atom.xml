@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: RoR | Ruemic's Blog]]></title>
+  <link href="http://ruemic.github.com/blog/categories/ror/atom.xml" rel="self"/>
+  <link href="http://ruemic.github.com/"/>
+  <updated>2012-09-17T18:11:20+08:00</updated>
+  <id>http://ruemic.github.com/</id>
+  <author>
+    <name><![CDATA[Michael Ruescher]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Rails, Backbone, Coffeescript, Github, Oh My!]]></title>
+    <link href="http://ruemic.github.com/blog/2012/09/17/rails/"/>
+    <updated>2012-09-17T15:02:00+08:00</updated>
+    <id>http://ruemic.github.com/blog/2012/09/17/rails</id>
+    <content type="html"><![CDATA[<p>I'm currently doing front end development with the awesome team at <a href="http://www.bigbadgoose.com/">Big Bad Goose</a> to create the <a href="http://www.goodies.co">Goodies</a> food discovery app for Walmart Labs.</p>
+
+<p>It's the first time I've had the privilege of working on full fledged web application running Ruby on Rails, backbone.js and using GitHub for source control. I've learned a ton, so here's a little digest of each technology.</p>
+
+<!-- more -->
+
+
+<h4>CoffeeScript</h4>
+
+<p>The app is entirely written in CoffeeScript, which is a dialect of javascript that gets rid of a lot of ugly syntax and only uses the "good parts" of the javascript language.</p>
+
+<p>I've really taken a liking to CoffeeScript because it lets you focus on the logic the behavior or interactive you're attempting to define instead of forcing you yo nitpick at your syntax.</p>
+
+<p>Since I'm purely on the front end, I'm mostly just using a lot of jQuery to write functions for event handlers to make things interactive. The combination of jQuery and CoffeeScript makes for really expressive code and I look forward to do a lot more with it.</p>
+
+<h5>Backbone, Ruby on Rails coming soon!</h5>
+]]></content>
+  </entry>
+  
+</feed>

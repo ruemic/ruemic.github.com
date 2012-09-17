@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Upgrading the Blog - Ruemic's Blog</title>
+  <title>Rails, Backbone, Coffeescript, Github, Oh My! - Ruemic's Blog</title>
   <meta name="author" content="Michael Ruescher">
 
   
-  <meta name="description" content="Because if it ain&#8217;t fun, it won&#8217;t get done I created this blog to reflect on my journey to become a coder/designer. It is also a place &hellip;">
+  <meta name="description" content="I&#8217;m currently doing front end development with the awesome team at Big Bad Goose to create the Goodies food discovery app for Walmart Labs. It &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://ruemic.github.com/blog/2012/09/05/Upgrading-the-Blog/">
+  <link rel="canonical" href="http://ruemic.github.com/blog/2012/09/17/rails/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -65,7 +65,7 @@
   
   <header>
     
-      <h1 class="entry-title">Upgrading the Blog</h1>
+      <h1 class="entry-title">Rails, Backbone, Coffeescript, Github, Oh My!</h1>
     
     
       <p class="meta">
@@ -81,41 +81,29 @@
   
 
 
-<time datetime="2012-09-05T02:10:00+08:00" pubdate data-updated="true">Sep 5<span>th</span>, 2012</time>
+<time datetime="2012-09-17T15:02:00+08:00" pubdate data-updated="true">Sep 17<span>th</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><h3>Because if it ain&#8217;t fun, it won&#8217;t get done</h3>
+<div class="entry-content"><p>I&#8217;m currently doing front end development with the awesome team at <a href="http://www.bigbadgoose.com/">Big Bad Goose</a> to create the <a href="http://www.goodies.co">Goodies</a> food discovery app for Walmart Labs.</p>
 
-<p>I created this blog to reflect on my journey to become a coder/designer. It is also a place for me to experiment with code and design. Although I&#8217;ve customized several Wordpress sites before, I decided I wanted to try something new and more lightweight.</p>
+<p>It&#8217;s the first time I&#8217;ve had the privilege of working on full fledged web application running Ruby on Rails, backbone.js and using GitHub for source control. I&#8217;ve learned a ton, so here&#8217;s a little digest of each technology.</p>
 
-<p>I started out by simply hand coding the html for each post. Turns out that was way too much overhead, and posting felt like work instead of being fun. So it simply didn&#8217;t get done. I needed to streamline my authoring flow. Enter <a href="http://octopress.org/docs/">Octopress</a>.</p>
-
-<!--More-->
+<!-- more -->
 
 
-<p>Lucky for me, some really smart folks have come up with a much better way to blog. Octopress iss a framework for <a href="http://jekyllrb.com/">Jekyll</a>, which is a &#8220;blog aware static site generator&#8221; written in Ruby.</p>
+<h4>CoffeeScript</h4>
 
-<p>It makes it really quick and easy to post, but also keeps things close to the metal in terms of the authoring tools. Octopress is set up to run on github pages so all you have to do is write a post in <a href="http://daringfireball.net/projects/markdown/">Markdown</a>, generate the static html site, and deploy it. It looks a little something like this:</p>
+<p>The app is entirely written in CoffeeScript, which is a dialect of javascript that gets rid of a lot of ugly syntax and only uses the &#8220;good parts&#8221; of the javascript language.</p>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>$ rake generate</span></code></pre></td></tr></table></div></figure>
+<p>I&#8217;ve really taken a liking to CoffeeScript because it lets you focus on the logic the behavior or interactive you&#8217;re attempting to define instead of forcing you yo nitpick at your syntax.</p>
 
+<p>Since I&#8217;m purely on the front end, I&#8217;m mostly just using a lot of jQuery to write functions for event handlers to make things interactive. The combination of jQuery and CoffeeScript makes for really expressive code and I look forward to do a lot more with it.</p>
 
-<p>(It comes with Solarized code highlighting!)</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>$ rake deploy</span></code></pre></td></tr></table></div></figure>
-
-
-<p>This pushes your latest changes to github, which then automatically deploys via <a href="http://pages.github.com/">Github Pages</a>.</p>
-
-<p>So that means you also automatically get the added benefit of being on version control, so if you want to branch off with an experiment, manage to really screw something up, or want to collaborate with other authors, you have github to manage that process.</p>
-
-<p>I&#8217;m looking forward to get to know Octopress better, and actually blogging while at it!</p>
+<h5>Backbone, Ruby on Rails coming soon!</h5>
 </div>
 
 
@@ -138,15 +126,21 @@
   
 
 
-<time datetime="2012-09-05T02:10:00+08:00" pubdate data-updated="true">Sep 5<span>th</span>, 2012</time>
+<time datetime="2012-09-17T15:02:00+08:00" pubdate data-updated="true">Sep 17<span>th</span>, 2012</time>
       
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/coffeescript-/'>CoffeeScript,</a>, <a class='category' href='/blog/categories/ror/'>RoR</a>, <a class='category' href='/blog/categories/backbone-js-/'>backbone.js,</a>, <a class='category' href='/blog/categories/github-/'>github,</a>
+  
+</span>
 
 
     </p>
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://ruemic.github.com/blog/2012/09/05/Upgrading-the-Blog/" data-via="" data-counturl="http://ruemic.github.com/blog/2012/09/05/Upgrading-the-Blog/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://ruemic.github.com/blog/2012/09/17/rails/" data-via="" data-counturl="http://ruemic.github.com/blog/2012/09/17/rails/" >Tweet</a>
   
   
   
@@ -155,10 +149,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2012/07/13/globetrotting/" title="Previous Post: Really ain't too much different">&laquo; Really ain't too much different</a>
+        <a class="basic-alignment left" href="/blog/2012/09/05/Upgrading-the-Blog/" title="Previous Post: Upgrading the Blog">&laquo; Upgrading the Blog</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2012/09/17/rails/" title="Next Post: Rails, Backbone, Coffeescript, Github, Oh My!">Rails, Backbone, Coffeescript, Github, Oh My! &raquo;</a>
       
     </p>
   </footer>
@@ -221,8 +213,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://ruemic.github.com/blog/2012/09/05/Upgrading-the-Blog/';
-        var disqus_url = 'http://ruemic.github.com/blog/2012/09/05/Upgrading-the-Blog/';
+        var disqus_identifier = 'http://ruemic.github.com/blog/2012/09/17/rails/';
+        var disqus_url = 'http://ruemic.github.com/blog/2012/09/17/rails/';
         var disqus_script = 'embed.js';
       
     (function () {
