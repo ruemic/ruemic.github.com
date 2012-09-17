@@ -10,11 +10,10 @@ categories:
 
 I created this blog to reflect on my journey to become a coder/designer. It is also a place for me to experiment with code and design. Although I've customized several Wordpress sites before, I decided I wanted to try something new and more lightweight.
 
- So I started out by simply hand coding the html for each post. Turns out that was way too much overhead, and posting felt like work instead of being fun. So it simply didn't get done. I needed to streamline my authoring flow.
-
-Lucky for me, some really smart folks have come up with a much better way to blog. [Octopress](http://octopress.org/docs/). It's a framework for [Jekyll](http://jekyllrb.com/), a "blog aware static site generator" written in Ruby.
-
+I started out by simply hand coding the html for each post. Turns out that was way too much overhead, and posting felt like work instead of being fun. So it simply didn't get done. I needed to streamline my authoring flow. Enter [Octopress](http://octopress.org/docs/).
 <!--More-->
+
+Lucky for me, some really smart folks have come up with a much better way to blog. Octopress iss a framework for [Jekyll](http://jekyllrb.com/), which is a "blog aware static site generator" written in Ruby.
 
 It makes it really quick and easy to post, but also keeps things close to the metal in terms of the authoring tools. Octopress is set up to run on github pages so all you have to do is write a post in [Markdown](http://daringfireball.net/projects/markdown/), generate the static html site, and deploy it. It looks a little something like this:
 

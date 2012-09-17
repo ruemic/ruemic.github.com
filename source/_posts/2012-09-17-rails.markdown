@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Rails, Backbone, Coffeescript, Github, Oh My!"
+date: 2012-09-17 15:02
+comments: true
+categories: [backbone.js, github, CoffeeScript, RoR]
+---
+
+I'm currently doing front end development with the awesome team at [Big Bad Goose](http://www.bigbadgoose.com/) to create the [Goodies](http://www.goodies.co) food discovery app for Walmart Labs.
+
+It's the first time I've had the privilege of working on a production web application running Ruby on Rails, backbone.js and using GitHub for source control. I've learned a ton, so here's a little digest of each technology.
+<!-- more -->
+
+#### CoffeeScript
+The javascript portion of the app is  written entirely in CoffeeScript, which is a dialect of javascript that gets rid of a lot of ugly syntax and only uses the "good parts" of the language.
+
+I've really taken a liking to CoffeeScript because it lets you focus on the logic of the behavior or interaction you're attempting to define instead of forcing you to nitpick the syntax of javascript.
+
+Since I'm working on the front end, I'm mostly just using a lot of jQuery to write functions for event handlers which r Backbone View's to make things interactive. The combination of jQuery and CoffeeScript makes for really expressive code and I look forward to do a lot more with it.
+
+##### Backbone, Ruby on Rails coming soon!

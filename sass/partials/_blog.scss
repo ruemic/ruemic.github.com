@@ -1,11 +1,19 @@
 
+article {
+}
+
+
+
+
 
 article {
   padding-top: 1em;
-  a { @extend .force-wrap; }
+  border-bottom: 1px dotted gray;
+  background-image: url('/images/husk.png');
+ a { @extend .force-wrap; }
   header {
     position: relative;
-    padding-top: 2em;
+    padding-top: 1.4em;
     padding-bottom: 1em;
     margin-bottom: 1em;
     background: $img-border bottom left repeat-x;
@@ -16,7 +24,7 @@ article {
     }
     p {
       font-size: .9em;
-      color: $text-color-light;
+      color: #832E2E;
       margin: 0;
       &.meta {
         @extend .sans;
@@ -82,17 +90,27 @@ article {
       @extend .separator;
     }
   }
+}
+  // Disqus
+#content .hentry + section {
+  padding-top: 1.4em;
+  background-image: url('/images/husk.png');
+  border: 3px solid $article-border;
+  @include box-shadow(#62717A 1px 1px 0px 1px, rgb(181, 207, 198) 0px -1px 0px 1px );
+}
 
+#content .blog-index article ,
+#content .hentry
+{
+  padding-top: 2em;
+  margin-bottom: 1.3em;
+  border: 3px solid $article-border;
+  @include box-shadow(#62717A 1px 1px 0px 1px, rgb(181, 207, 198) 0px -1px 0px 1px );
 }
 
 #content .blog-index {
   padding: { top: 0; bottom: 0; }
-  article {
-    padding-top: 2em;
-    margin-bottom: 1.3em;
-    border: 3px solid $article-border;
-    @include box-shadow(#62717A 1px 1px 0px 1px, rgb(181, 207, 198) 0px -1px 0px 1px );
-  }
+
   article header { background: none; padding-bottom: 0; }
   article h1 {
     font-size: 2.2em;
