@@ -4,7 +4,7 @@
   <title><![CDATA[Ruemic's Blog]]></title>
   <link href="http://ruemic.github.com/atom.xml" rel="self"/>
   <link href="http://ruemic.github.com/"/>
-  <updated>2012-09-17T19:47:41+08:00</updated>
+  <updated>2012-09-17T19:50:43+08:00</updated>
   <id>http://ruemic.github.com/</id>
   <author>
     <name><![CDATA[Michael Ruescher]]></name>
@@ -20,7 +20,7 @@
     <id>http://ruemic.github.com/blog/2012/09/17/rails</id>
     <content type="html"><![CDATA[<p>I&#8217;m currently doing front end development with the awesome team at <a href="http://www.bigbadgoose.com/">Big Bad Goose</a> to create the <a href="http://www.goodies.co">Goodies</a> food discovery app for Walmart Labs.</p>
 
-<p>It&#8217;s the first time I&#8217;ve had the privilege of working on a full fledged web application running Ruby on Rails, backbone.js and using GitHub for source control. I&#8217;ve learned a ton, so here&#8217;s a little digest of each technology.</p>
+<p>It&#8217;s the first time I&#8217;ve had the privilege of working on a production web application running Ruby on Rails, backbone.js and using GitHub for source control. I&#8217;ve learned a ton, so here&#8217;s a little digest of each technology.</p>
 
 <!-- more -->
 
@@ -31,7 +31,7 @@
 
 <p>I&#8217;ve really taken a liking to CoffeeScript because it lets you focus on the logic of the behavior or interaction you&#8217;re attempting to define instead of forcing you to nitpick the syntax of javascript.</p>
 
-<p>Since I&#8217;m working on the front end, I&#8217;m mostly just using a lot of jQuery to write functions for event handlers to make things interactive. The combination of jQuery and CoffeeScript makes for really expressive code and I look forward to do a lot more with it.</p>
+<p>Since I&#8217;m working on the front end, I&#8217;m mostly just using a lot of jQuery to write functions for event handlers which reside in Backbone View&#8217;s to make things interactive. The combination of jQuery and CoffeeScript makes for really expressive code and I look forward to do a lot more with it.</p>
 
 <h5>Backbone, Ruby on Rails coming soon!</h5>
 ]]></content>
