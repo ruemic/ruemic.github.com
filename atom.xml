@@ -4,7 +4,7 @@
   <title><![CDATA[Ruemic's Blog]]></title>
   <link href="http://ruemic.github.com/atom.xml" rel="self"/>
   <link href="http://ruemic.github.com/"/>
-  <updated>2012-09-19T01:48:55+08:00</updated>
+  <updated>2012-10-14T15:07:18-07:00</updated>
   <id>http://ruemic.github.com/</id>
   <author>
     <name><![CDATA[Michael Ruescher]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Rails, Backbone, Coffeescript, Github, Oh My!]]></title>
     <link href="http://ruemic.github.com/blog/2012/09/17/rails/"/>
-    <updated>2012-09-17T15:02:00+08:00</updated>
+    <updated>2012-09-17T15:02:00-07:00</updated>
     <id>http://ruemic.github.com/blog/2012/09/17/rails</id>
     <content type="html"><![CDATA[<p>I&#8217;m currently doing front end development with the awesome team at <a href="http://www.bigbadgoose.com/">Big Bad Goose</a> to create the <a href="http://www.goodies.co">Goodies</a> food discovery app for Walmart Labs.</p>
 
@@ -40,7 +40,7 @@
   <entry>
     <title type="html"><![CDATA[Upgrading the Blog]]></title>
     <link href="http://ruemic.github.com/blog/2012/09/05/Upgrading-the-Blog/"/>
-    <updated>2012-09-05T02:10:00+08:00</updated>
+    <updated>2012-09-05T02:10:00-07:00</updated>
     <id>http://ruemic.github.com/blog/2012/09/05/Upgrading-the-Blog</id>
     <content type="html"><![CDATA[<h3>Because if it ain&#8217;t fun, it won&#8217;t get done</h3>
 
@@ -76,7 +76,7 @@
   <entry>
     <title type="html"><![CDATA[Designing for Humans]]></title>
     <link href="http://ruemic.github.com/blog/2012/07/13/globetrotting/"/>
-    <updated>2012-07-13T14:39:00+08:00</updated>
+    <updated>2012-07-13T14:39:00-07:00</updated>
     <id>http://ruemic.github.com/blog/2012/07/13/globetrotting</id>
     <content type="html"><![CDATA[<p>One of the best things about being a freelancer is the freedom to pick projects that allow for a flexible work schedule and contributing to a project remotely. It&#8217;s allowed me to keep designing and building web sites while I travel the world with my beautiful wife and visit our extended family.</p>
 
@@ -114,7 +114,7 @@
   <entry>
     <title type="html"><![CDATA[Just Blog Already]]></title>
     <link href="http://ruemic.github.com/blog/2012/05/04/just-blog-already/"/>
-    <updated>2012-05-04T15:29:00+08:00</updated>
+    <updated>2012-05-04T15:29:00-07:00</updated>
     <id>http://ruemic.github.com/blog/2012/05/04/just-blog-already</id>
     <content type="html"><![CDATA[<h3>A Note to Self</h3>
 

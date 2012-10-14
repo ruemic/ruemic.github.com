@@ -4,7 +4,7 @@
   <title><![CDATA[Category: github | Ruemic's Blog]]></title>
   <link href="http://ruemic.github.com/blog/categories/github/atom.xml" rel="self"/>
   <link href="http://ruemic.github.com/"/>
-  <updated>2012-09-19T01:48:55+08:00</updated>
+  <updated>2012-10-14T15:07:18-07:00</updated>
   <id>http://ruemic.github.com/</id>
   <author>
     <name><![CDATA[Michael Ruescher]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Rails, Backbone, Coffeescript, Github, Oh My!]]></title>
     <link href="http://ruemic.github.com/blog/2012/09/17/rails/"/>
-    <updated>2012-09-17T15:02:00+08:00</updated>
+    <updated>2012-09-17T15:02:00-07:00</updated>
     <id>http://ruemic.github.com/blog/2012/09/17/rails</id>
     <content type="html"><![CDATA[<p>I'm currently doing front end development with the awesome team at <a href="http://www.bigbadgoose.com/">Big Bad Goose</a> to create the <a href="http://www.goodies.co">Goodies</a> food discovery app for Walmart Labs.</p>
 
