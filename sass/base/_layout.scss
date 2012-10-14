@@ -119,7 +119,9 @@ body.sidebar-footer {
 }
 
 @media only screen and (min-width: 550px) {
-  body > header { font-size: $header-font-size; }
+  body > header {
+    font-size: $header-font-size;
+  }
 }
 @media only screen and (min-width: 750px) {
   aside.sidebar { @include collapse-sidebar; }
@@ -191,4 +193,8 @@ body.sidebar-footer {
     ul, ol { margin-left: 0; }
   }
 }
+
+
+
+
 

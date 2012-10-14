@@ -16,6 +16,6 @@ The javascript portion of the app is  written entirely in CoffeeScript, which is
 
 I've really taken a liking to CoffeeScript because it lets you focus on the logic of the behavior or interaction you're attempting to define instead of forcing you to nitpick the syntax of javascript.
 
-Since I'm working on the front end, I'm mostly just using a lot of jQuery to write functions for event handlers which r Backbone View's to make things interactive. The combination of jQuery and CoffeeScript makes for really expressive code and I look forward to do a lot more with it.
+Since I'm working on the front end, I'm mostly just using a lot of jQuery to write functions for event handlers to make things interactive. The CoffeeScript for each page is contained within a custom backbone.js view class which has a module for binding and triggering custom named events. This combination using backbone to organize the code and writing the functions in jQuery and CoffeeScript makes for really expressive code.
 
-##### Backbone, Ruby on Rails coming soon!
+##### More on Backbone and Ruby on Rails coming soon!

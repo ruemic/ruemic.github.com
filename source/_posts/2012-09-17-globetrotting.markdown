@@ -3,12 +3,12 @@ layout: post
 title: "Designing for Humans"
 date: 2012-07-13 14:39
 comments: true
-categories:
+categories: design, culture
 ---
 
-One of the best things about being a freelancer is the freedom to pick projects that allow for a flexible work schedule and working remotely. It's allowed me to keep designing and building web sites as I travel the world with my beautiful wife to visit our extended family.
+One of the best things about being a freelancer is the freedom to pick projects that allow for a flexible work schedule and contributing to a project remotely. It's allowed me to keep designing and building web sites while I travel the world with my beautiful wife and visit our extended family.
 
-I've been in Hong Kong for a good month now, and one thing that stands out is the sheer amount of smart-phone and tablet here. Even in mainland China, where incomes are lower than in Hong Kong, about 50% of the people on the riding subway are on a smart-phone or tablet. There are plenty of iPhones, but Android is the most prevalent. A family friend owns a fully capable Nexus 3 knockoff she bought under $100 USD.
+I've been in Hong Kong for a good month now, and one thing that stands out is the sheer amount of smart-phone and tablet usage here. Even in mainland China, where incomes are lower than in Hong Kong, about 50% of the people on the riding subway are on a smart-phone or tablet. There are plenty of iPhones, but Android is the most prevalent.
 
 For many in China, this kind of device is their main personal computer. Kind of like what's happening everywhere else in the world. Hmmm.
 <!-- more -->

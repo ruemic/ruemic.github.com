@@ -33,15 +33,6 @@ html {
 }
 
 
-article {
-  border-bottom: 1px dotted gray;
-  background-image: url('/images/husk.png');
-  header {
-    padding-top: 1.4em;
-    p { color: #832E2E }
-  }
-  + section { background-image: url('/images/husk.png'); }
-}
 
 
 
